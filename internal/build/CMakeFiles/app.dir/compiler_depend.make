@@ -69,6 +69,7 @@ CMakeFiles/app.dir/Users/jesseerlenmeyer/Github/GameInADay/games/NumberDungeon/s
   /Users/jesseerlenmeyer/Github/GameInADay/internal/deps/sdl3/include/SDL3/SDL_tray.h \
   /Users/jesseerlenmeyer/Github/GameInADay/internal/deps/sdl3/include/SDL3/SDL_version.h \
   /Users/jesseerlenmeyer/Github/GameInADay/internal/deps/sdl3/include/SDL3/SDL_video.h \
+  /Users/jesseerlenmeyer/Github/GameInADay/internal/deps/sdl3_image/include/SDL3_image/SDL_image.h \
   /usr/local/include/Availability.h \
   /usr/local/include/AvailabilityInternal.h \
   /usr/local/include/AvailabilityInternalLegacy.h \
@@ -187,6 +188,8 @@ CMakeFiles/app.dir/Users/jesseerlenmeyer/Github/GameInADay/games/NumberDungeon/s
 
 /usr/local/include/machine/types.h:
 
+/usr/local/include/machine/_types.h:
+
 /usr/local/include/_types.h:
 
 /usr/local/include/arm/types.h:
@@ -226,6 +229,8 @@ CMakeFiles/app.dir/Users/jesseerlenmeyer/Github/GameInADay/games/NumberDungeon/s
 /usr/local/include/_types/_uintmax_t.h:
 
 /usr/local/include/AvailabilityInternal.h:
+
+/Users/jesseerlenmeyer/Github/GameInADay/internal/deps/sdl3_image/include/SDL3_image/SDL_image.h:
 
 /Users/jesseerlenmeyer/Github/GameInADay/internal/deps/sdl3/include/SDL3/SDL_tray.h:
 
@@ -362,8 +367,6 @@ CMakeFiles/app.dir/Users/jesseerlenmeyer/Github/GameInADay/games/NumberDungeon/s
 /Users/jesseerlenmeyer/Github/GameInADay/internal/deps/sdl3/include/SDL3/SDL_bits.h:
 
 /Users/jesseerlenmeyer/Github/GameInADay/internal/deps/sdl3/include/SDL3/SDL_iostream.h:
-
-/usr/local/include/machine/_types.h:
 
 /Users/jesseerlenmeyer/Github/GameInADay/internal/deps/sdl3/include/SDL3/SDL_hidapi.h:
 

@@ -95,6 +95,7 @@ app_EXTERNAL_OBJECTS =
 
 app: CMakeFiles/app.dir/Users/jesseerlenmeyer/Github/GameInADay/games/NumberDungeon/src/main.cpp.o
 app: CMakeFiles/app.dir/build.make
+app: /Users/jesseerlenmeyer/Github/GameInADay/internal/deps/sdl3_image/lib/libSDL3_image.0.3.0.dylib
 app: /Users/jesseerlenmeyer/Github/GameInADay/internal/deps/sdl3/lib/libSDL3.0.dylib
 app: CMakeFiles/app.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/jesseerlenmeyer/Github/GameInADay/internal/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable app"

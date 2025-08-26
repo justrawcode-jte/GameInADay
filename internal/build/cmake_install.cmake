@@ -42,6 +42,7 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/app" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/app")
     execute_process(COMMAND /usr/bin/install_name_tool
+      -delete_rpath "/Users/jesseerlenmeyer/Github/GameInADay/internal/deps/sdl3_image/lib"
       -delete_rpath "/Users/jesseerlenmeyer/Github/GameInADay/internal/deps/sdl3/lib"
       -add_rpath "@loader_path/../lib"
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/app")
@@ -56,9 +57,16 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/assets" TYPE DIRECTORY FILES "/Users/jesseerlenmeyer/Github/GameInADay/internal/.././games/NumberDungeon/assets/")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE FILE FILES
     "/Users/jesseerlenmeyer/Github/GameInADay/internal/deps/sdl3/lib/libSDL3.0.dylib"
     "/Users/jesseerlenmeyer/Github/GameInADay/internal/deps/sdl3/lib/libSDL3.dylib"
+    "/Users/jesseerlenmeyer/Github/GameInADay/internal/deps/sdl3_image/lib/libSDL3_image.0.3.0.dylib"
+    "/Users/jesseerlenmeyer/Github/GameInADay/internal/deps/sdl3_image/lib/libSDL3_image.0.dylib"
+    "/Users/jesseerlenmeyer/Github/GameInADay/internal/deps/sdl3_image/lib/libSDL3_image.dylib"
     )
 endif()
 

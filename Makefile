@@ -3,6 +3,9 @@ GAME_DIR?=""
 setup-project:
 	@ cmake -S ./internal -B ./internal/build -DGAME_DIR=${GAME_DIR}
 
+compile-deps:
+	cd ./internal; sh ./bash/compile_deps.sh
+
 compile-project:
 	@ cmake --build ./internal/build
 

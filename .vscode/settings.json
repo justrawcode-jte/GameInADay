@@ -10,5 +10,6 @@
 		"deque": "cpp",
 		"*.txt": "plaintext",
 		"CMakeLists.txt": "cmake",
+		"locale": "cpp"
 	}
 }

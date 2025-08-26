@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/jesseerlenmeyer/Github/GameInADay/internal/app -I/Users/jesseerlenmeyer/Github/GameInADay/internal/PRIVATE -I/Users/jesseerlenmeyer/Github/GameInADay/internal/deps/sdl3/include -I/Users/jesseerlenmeyer/Github/GameInADay/internal/.././games/NumberDungeon/src
+CXX_INCLUDES = -I/Users/jesseerlenmeyer/Github/GameInADay/internal/app -I/Users/jesseerlenmeyer/Github/GameInADay/internal/PRIVATE -I/Users/jesseerlenmeyer/Github/GameInADay/internal/deps/sdl3/include -I/Users/jesseerlenmeyer/Github/GameInADay/internal/.././games/NumberDungeon/src -isystem /Users/jesseerlenmeyer/Github/GameInADay/internal/deps/sdl3_image/include
 
 CXX_FLAGSarm64 = -std=gnu++17 -arch arm64
 

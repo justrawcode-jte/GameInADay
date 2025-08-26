@@ -1,3 +1,7 @@
 /Users/jesseerlenmeyer/Github/GameInADay/./games/NumberDungeon/install/bin/app
+/Users/jesseerlenmeyer/Github/GameInADay/./games/NumberDungeon/install/assets/assets.png
 /Users/jesseerlenmeyer/Github/GameInADay/./games/NumberDungeon/install/lib/libSDL3.0.dylib
 /Users/jesseerlenmeyer/Github/GameInADay/./games/NumberDungeon/install/lib/libSDL3.dylib
+/Users/jesseerlenmeyer/Github/GameInADay/./games/NumberDungeon/install/lib/libSDL3_image.0.3.0.dylib
+/Users/jesseerlenmeyer/Github/GameInADay/./games/NumberDungeon/install/lib/libSDL3_image.0.dylib
+/Users/jesseerlenmeyer/Github/GameInADay/./games/NumberDungeon/install/lib/libSDL3_image.dylib

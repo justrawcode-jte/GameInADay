@@ -70,6 +70,7 @@ CMakeFiles/app.dir/Users/jesseerlenmeyer/Github/GameInADay/games/NumberDungeon/s
  /Users/jesseerlenmeyer/Github/GameInADay/internal/deps/sdl3/include/SDL3/SDL_tray.h
  /Users/jesseerlenmeyer/Github/GameInADay/internal/deps/sdl3/include/SDL3/SDL_version.h
  /Users/jesseerlenmeyer/Github/GameInADay/internal/deps/sdl3/include/SDL3/SDL_video.h
+ /Users/jesseerlenmeyer/Github/GameInADay/internal/deps/sdl3_image/include/SDL3_image/SDL_image.h
  /usr/local/include/Availability.h
  /usr/local/include/AvailabilityInternal.h
  /usr/local/include/AvailabilityInternalLegacy.h
