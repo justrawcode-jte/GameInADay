@@ -1,0 +1,3 @@
+/Users/jesseerlenmeyer/Github/GameInADay/./games/NumberDungeon/install/bin/app
+/Users/jesseerlenmeyer/Github/GameInADay/./games/NumberDungeon/install/lib/libSDL3.0.dylib
+/Users/jesseerlenmeyer/Github/GameInADay/./games/NumberDungeon/install/lib/libSDL3.dylib

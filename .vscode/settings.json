@@ -1,0 +1,14 @@
+{
+	"files.associations": {
+		"*.hlsl": "hlsl",
+		"Makefile": "makefile",
+		"*.cpp": "cpp",
+		"*.h": "cpp",
+		"*.dat": "code-text-binary",
+		"__split_buffer": "cpp",
+		"vector": "cpp",
+		"deque": "cpp",
+		"*.txt": "plaintext",
+		"CMakeLists.txt": "cmake",
+	}
+}
