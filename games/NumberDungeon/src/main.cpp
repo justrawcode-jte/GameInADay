@@ -18,7 +18,7 @@ void init() {
 	GameData.window_ptr = SDL_CreateWindow( "Number Dungeon", 640u, 360u, GameData.window_flags );
 	SDL_zero( GameData.events );
 	GameData.game_is_running = true;
-	SDL_CreateRenderer( GameData.window_ptr, nullptr );
+	GameData.renderer_ptr = SDL_CreateRenderer( GameData.window_ptr, nullptr );
 }
 void exit() {
 	SDL_DestroyRenderer( GameData.renderer_ptr );
